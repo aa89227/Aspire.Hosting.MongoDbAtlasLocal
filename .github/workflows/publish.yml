@@ -1,0 +1,27 @@
+name: Publish to NuGet
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment: nuget
+    permissions:
+      id-token: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.x'
+
+      - run: dotnet test --configuration Release
+
+      - run: dotnet pack --configuration Release --output ./artifacts
+
+      - name: Publish to NuGet.org
+        run: dotnet nuget push ./artifacts/*.nupkg --source https://api.nuget.org/v3/index.json

@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <PackageId>aa89227.Aspire.Hosting.MongoDB.AtlasLocal</PackageId>
+    <PackageId>aa89227.Aspire.Hosting.MongoDbAtlasLocal</PackageId>
     <AssemblyName>Aspire.Hosting.MongoDbAtlasLocal</AssemblyName>
     <RootNamespace>Aspire.Hosting.MongoDbAtlasLocal</RootNamespace>
     <Version>0.1.0</Version>

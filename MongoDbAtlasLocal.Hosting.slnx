@@ -1,8 +1,8 @@
 <Solution>
   <Folder Name="/src/">
-    <Project Path="src/aa89227.Aspire.Hosting.MongoDB.AtlasLocal/aa89227.Aspire.Hosting.MongoDB.AtlasLocal.csproj" />
+    <Project Path="src/Aspire.Hosting.MongoDbAtlasLocal/Aspire.Hosting.MongoDbAtlasLocal.csproj" />
   </Folder>
   <Folder Name="/tests/">
-    <Project Path="tests/aa89227.Aspire.Hosting.MongoDB.AtlasLocal.Tests/aa89227.Aspire.Hosting.MongoDB.AtlasLocal.Tests.csproj" />
+    <Project Path="tests/Aspire.Hosting.MongoDbAtlasLocal.Tests/Aspire.Hosting.MongoDbAtlasLocal.Tests.csproj" />
   </Folder>
 </Solution>

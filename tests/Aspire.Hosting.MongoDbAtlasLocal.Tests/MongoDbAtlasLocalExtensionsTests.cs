@@ -2,7 +2,7 @@ using Aspire.Hosting;
 using Aspire.Hosting.ApplicationModel;
 using Xunit;
 
-namespace aa89227.Aspire.Hosting.MongoDB.AtlasLocal.Tests;
+namespace Aspire.Hosting.MongoDbAtlasLocal.Tests;
 
 public class MongoDbAtlasLocalExtensionsTests
 {

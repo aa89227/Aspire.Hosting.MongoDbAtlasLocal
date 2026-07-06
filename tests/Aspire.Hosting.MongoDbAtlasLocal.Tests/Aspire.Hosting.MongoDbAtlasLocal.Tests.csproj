@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\aa89227.Aspire.Hosting.MongoDB.AtlasLocal\aa89227.Aspire.Hosting.MongoDB.AtlasLocal.csproj" />
+    <ProjectReference Include="..\..\src\Aspire.Hosting.MongoDbAtlasLocal\Aspire.Hosting.MongoDbAtlasLocal.csproj" />
   </ItemGroup>
 
 </Project>
