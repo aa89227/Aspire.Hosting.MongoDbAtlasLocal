@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>aa89227.Aspire.Hosting.MongoDB.AtlasLocal</PackageId>
+    <AssemblyName>Aspire.Hosting.MongoDbAtlasLocal</AssemblyName>
+    <RootNamespace>Aspire.Hosting.MongoDbAtlasLocal</RootNamespace>
+    <Version>0.1.0</Version>
+    <Description>Aspire hosting integration for MongoDB Atlas Local container (mongodb/mongodb-atlas-local).</Description>
+    <Authors>aa89227</Authors>
+    <PackageTags>aspire;mongodb;atlas-local;hosting</PackageTags>
+    <IsAspireComponent>true</IsAspireComponent>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting" Version="13.4.6" />
+  </ItemGroup>
+
+</Project>

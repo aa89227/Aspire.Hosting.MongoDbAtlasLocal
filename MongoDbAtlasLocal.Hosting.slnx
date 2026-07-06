@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/aa89227.Aspire.Hosting.MongoDB.AtlasLocal/aa89227.Aspire.Hosting.MongoDB.AtlasLocal.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/aa89227.Aspire.Hosting.MongoDB.AtlasLocal.Tests/aa89227.Aspire.Hosting.MongoDB.AtlasLocal.Tests.csproj" />
+  </Folder>
+</Solution>
