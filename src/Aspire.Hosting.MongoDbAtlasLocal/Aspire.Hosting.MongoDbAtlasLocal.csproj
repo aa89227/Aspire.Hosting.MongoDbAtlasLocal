@@ -4,7 +4,6 @@
     <PackageId>aa89227.Aspire.Hosting.MongoDbAtlasLocal</PackageId>
     <AssemblyName>Aspire.Hosting.MongoDbAtlasLocal</AssemblyName>
     <RootNamespace>Aspire.Hosting.MongoDbAtlasLocal</RootNamespace>
-    <Version>0.1.0</Version>
     <Description>Aspire hosting integration for MongoDB Atlas Local container (mongodb/mongodb-atlas-local).</Description>
     <Authors>aa89227</Authors>
     <PackageTags>aspire;mongodb;atlas-local;hosting</PackageTags>
